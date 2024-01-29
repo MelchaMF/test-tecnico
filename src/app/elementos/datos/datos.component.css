@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+}
+.btn-table{
+  background-color: white;
+}
+input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type=number] { -moz-appearance:textfield; }
+
+.formulario {
+  color: white;
+  background-color: black;
+  border-radius: 1px black;
+  padding: 22px;
+}
+.d-flex{
+  justify-content: center;
+}
