@@ -63,7 +63,9 @@
       <br>
       <button class="btn btn-primary" [disabled]="!btnEditar" type="submit" (click)="modificar()"> Modificar </button>
     </div>
-
+    <div class="alert alert-danger" role="alert" *ngIf="f('correo') || msj">
+      Este correo ya existe
+    </div>
   </forms>
 
   <!--div>Estado del formulario: {{ formulario.value | json }}</!--div-->
